@@ -1,5 +1,5 @@
 @import "./reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
 
 .container-full {
   max-width: 1386px;
@@ -15,18 +15,130 @@
 
 /* HEADER */
 
+.header {
+  padding: 27px 0 50px;
+}
 
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-name {
+  font-weight: 400;
+  font-size: 19.5912px;
+  line-height: 24px;
+  margin-left: 19px;
+  color: #163872;
+}
+
+.header__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.header__link:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header__registration {
+  display: flex;
+  align-items: center;
+}
+
+.header__sing-ip {
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+}
+
+.header__sign {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #163872;
+}
+
+.header__sing-up {
+  display: flex;
+  align-items: center;
+}
+
+.header__social {
+  display: flex;
+  column-gap: 18px;
+}
 
 /* HEADER */
 
 /* HERO */
 
+.hero {
+  padding: 50px 0 61px;
+}
 
+.hero__title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 61px;
+  color: #000000;
+}
+
+.hero__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__desc {
+  max-width: 542px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 43px;
+  color: #333333;
+}
+
+.hero__button {
+  display: flex;
+  align-items: center;
+}
+
+.hero__btn:nth-child(1) {
+  padding: 12px 27.5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: #163872;
+  margin-right: 21px;
+  border-radius: 36px;
+  box-shadow: 0px 14px 34px rgba(52, 77, 115, 0.15);
+}
+
+.hero__btn:nth-child(2) {
+  padding: 12px 27.5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 36px;
+  color: #163872;
+  border: 1px solid #163872;
+  filter: drop-shadow(0px 14px 34px rgba(52, 77, 115, 0.15));
+}
 
 /* HERO */
 
 /* INTRO */
-
-
 
 /* INTRO */
